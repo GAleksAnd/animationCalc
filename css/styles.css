@@ -1,0 +1,114 @@
+img {
+    width: 65px;
+    height: 65px;
+}
+
+.Main_blok div {
+        position: absolute;
+        right: calc(50% - 35px);
+        bottom: calc(50% - 35px);
+    }
+.Main_blok {
+    width: 100%;
+}
+/*-----------ще потрібно повернути олівця на 90градусів----------------------------------------------------*/
+.pencil {
+    animation: penctop 2s ease-in-out both;
+     }
+     @-webkit-keyframes penctop{
+        100% {
+            @-webkit-transform: translate(0px, 0px) rotate(90deg);
+        }
+     }
+/*---------------------------------------------------------------*/
+
+.calc {
+    animation: calctop 2s ease-in-out both;
+    }
+    
+    @-webkit-keyframes calctop {
+        100% {
+            -webkit-transform: translate(100px, -150px) rotate(15deg);
+        }
+    }
+    
+    @-moz-keyframes calctop {
+        100% {
+            -webkit-transform: translate(100px, -150px) rotate(15deg);
+        }
+    }
+    
+    @keyframes calctop {
+        100% {
+            -webkit-transform: translate(100px, -150px) rotate(15deg);
+        }
+    }
+/*---------------------------------------------------------------*/
+.book {
+    animation: booktop 2s ease-in-out both;
+}
+@-webkit-keyframes booktop {
+    100% {
+        -webkit-transform: translate(-250px, -100px) rotate(-30deg);
+    }
+}
+@-moz-keyframes booktop {
+    100% {
+        -webkit-transform: translate(-250px, -100px) rotate(-30deg);
+    }
+}   
+@keyframes booktop {
+    100% {
+        -webkit-transform: translate(-250px, -100px) rotate(-30deg);
+    }
+}
+/*---------------------------------------------------------------*/
+.paper {
+    animation: papertop 2s ease-in-out both;
+    }
+    
+    @-webkit-keyframes papertop {
+        100% {
+            -webkit-transform: translate(-100px, -150px) rotate(-15deg);
+        }
+    }
+    
+    @-moz-keyframes papertop {
+        100% {
+            -webkit-transform: translate(-100px, -150px) rotate(-15deg);
+        }
+    }
+    
+    @keyframes papertop {
+        100% {
+            -webkit-transform: translate(-100px, -150px)rotate(-15deg);
+        }
+    }
+/*---------------------------------------------------------------*/
+.pallete {
+    animation: palletetop 2s ease-in-out both;
+    }
+    
+    @-webkit-keyframes palletetop {
+        100% {
+            -webkit-transform: translate(250px, -100px);
+        }
+    }
+    
+    @-moz-keyframes palletetop {
+        100% {
+            -webkit-transform: translate(250px, -100px);
+        }
+    }
+    
+    @keyframes palletetop {
+        100% {
+            -webkit-transform: translate(250px, -100px) rotate(30deg);
+        }
+    }
+
+
+
+
+
+
